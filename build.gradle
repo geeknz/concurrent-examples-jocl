@@ -1,0 +1,11 @@
+apply plugin: 'application'
+
+mainClassName = 'matrix.VectorMatrix'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.jocl:jocl:0.1.9'
+}
